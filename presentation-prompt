@@ -1,0 +1,57 @@
+1. Objective and Problem Statement:
+
+Q:What motivated your team to create the AI Counselor project?
+A: Doing the research, our team has observed the fact that employees do not communicate their complains to the higher ranked managers or to other work buddies. This can be confirmed by the fact that the survey answers given to managers and engineers differ a lot. The managers think they know their workers, but the workers are not eager to communicate their problems.
+
+Q:How do you envision the AI Counselor addressing issues like mobbing, sexual harassment, and excessive pressure?
+A: The AI Counselor is in a form of a chat-bot that is having a conversation with the employee. The employee can easily message the AI Counselor via a web-application. The AI Counselor is going to answer in a comforting manner and ask the employee if they need their help with communicating the fact with the manager or simply provide the solution to the problem.
+
+2. Functionality:
+
+Q:How does the AI Counselor engage with employees? Is it through a chat interface, voice interactions, or both?
+A:AI Counselor engages with employees through a chat interface on the web-application. The web application is similar to the ChatGPT application.
+
+Q:What kind of AI technologies are you using to develop the counselor's behavior and responses?
+A:We are using the Vicuna LLM trained on specific prompts. We tell the model to behave like a counselor and interact with the user in a comforting manner. In the future, the model can be finetuned on the data collected from conversations with AI Counselor to answer the questions more accuratly.
+
+Q:Can you provide examples of how the AI Counselor might approach different scenarios?
+A:Let's say the employee messages the AI Counselor:
+Employee: "Hey, I am not feeling really well this week in the work. I feel really overwhelmed by the amount of work we have to do. I feel like our manager is putting to much pressure on our team."
+
+AI Counselor is going to reply in a friendly manner that it's going to help the employee to contact the manager. It's gonna ask the employee if it should contact the manager directly or if the employee feels enough to speak to the manager themselves. 
+
+3. Anonymity and Privacy:
+
+Q:How will the system ensure that the conversations between employees and the AI Counselor remain confidential and anonymous?
+A:The conversations between employees are not connected with their work ids. The system does not collect the data from the user unless the user provides it. If the user agrees on providing the data, it can be stored in the AI Counselor memory and send to the database.
+
+Q: What measures are in place to prevent any potential misuse or unauthorized access to the stored conversation data?
+A: The AI Counselor databases are well protected on the TSMC strictly protected servers. There is no access to the servers outside the company.
+
+4. Employee Empowerment:
+
+Q: How will the AI Counselor encourage employees to take action, such as reporting issues to their managers or seeking advice?
+A: AI Counselor is not a direct person, but a comfortable AI model that is friendly to the user. It's going to encourage the employees to take action by giving them the proper solutions to the situation. Instead of manager, it could also contact the employees buddies.
+
+Q: What strategies have you considered to motivate employees to participate and trust the AI Counselor?
+A: Using AI Counselor could be the first and easiest way to write a complaint about the behavior inside the company. It is an easy solution that does not require much effort to be put. The users could trust the AI Counselor because it's goal is to help the employee situation by announcing the problem to the wider group such as managers.
+
+Integration and Data Handling:
+
+Q: Could you explain the process of integrating the AI Counselor system with the company's existing infrastructure?
+A: The AI Counselor is going to be a web application available on the mytsmc.com webpage among all other inner company applications. Our product is going to be widely announced to the employees, so that everyone knows there is a solution to their problem if they're in the need.
+
+Q: What tools or technologies are you planning to use for data storage, analysis, and reporting?
+Feedback and Improvement:
+A: We are going to use vector databases in order to collect the conversation data. Such a solution can provide the sense of the sentences, which later could be use to retrain (finetune) the model in order to achieve better results in the future. We are using python analysis tools in order to analize the data. 
+
+Q: How do you plan to gather feedback from employees about their experiences with the AI Counselor?
+A: We are going to create the regular feedback check with the surveys about the model performance and utility.
+
+Q: Will there be a mechanism to continuously improve the AI Counselor's responses and behavior based on user interactions?
+A: The AI Counselor behavior and responses are going to be continuously improved based on the inputs gathered from users. The model is going to be finetuned on the conversations data and the user feedback. This way, we can improve the model's accuracy.
+
+Scalability and Maintenance:
+
+Q: How scalable is the AI Counselor system? Can it handle a growing number of employees using the service simultaneously?
+A: Our system is designed to scale with the company's growth. It can handle a high volume of simultaneous interactions, ensuring that every employee's voice is heard. Ongoing maintenance and updates will guarantee the system's effectiveness and relevance in the long term.
